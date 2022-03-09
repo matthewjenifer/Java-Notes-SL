@@ -74,6 +74,8 @@ public class WatupDoe {
 		// * multiplication
 		double z = 6.3 * 3.6;
 		System.out.println(z); // prints: 22.68
+		double m = 6.3 * height;
+		System.out.println(m); // prints: 35.91
 		// / division
 		int a = 6 / 3;
 		System.out.println(a); // prints: 2
