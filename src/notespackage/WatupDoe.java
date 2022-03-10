@@ -88,7 +88,7 @@ public class WatupDoe {
 		// LOGICAL OPERATORS
 		int age = 17;
 		int cash = 30;
-		if (cash > 15 && age > 18) {
+		if (cash > 5 && age > 18) {
 			System.out.println("sale");
 		} else {
 			System.out.println("no sale kid..");
