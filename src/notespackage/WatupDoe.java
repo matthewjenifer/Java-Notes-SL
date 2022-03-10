@@ -147,13 +147,6 @@ public class WatupDoe {
 			System.out.println("in this bitch!");
 		}
 
-		// ????? SWITCH EXPRESSION: The switch expression allows multiple comma-separated
-		// values per case and returns a value for the whole switch-case block.
-		
-		//String dayOftheWeek = switch(day) {
-		//case 1,2,3,4,5 -> "go to work";
-		//case 6, 7 -> "find God";
-		// };
 		
 		//LETS BUILD A SCANNER
 		Scanner fetch = new Scanner(System.in); // ***(imported at the top)
@@ -173,10 +166,10 @@ public class WatupDoe {
 		System.out.println(word + " " + word);
 		
 		System.out.println("Who are you really?");
-		String name2 = fetch.next(); 
+		String name2 = fetch.next(); // accepts input from console
 		System.out.println("hello "+ name2);
 		System.out.println("What station is Rosenberg on "+ name2 + "?");
-		double hot = fetch.nextDouble();
+		double hot = fetch.nextDouble();// accepts input from console
 		if(hot != 97.1) {
 			System.out.println("Nope!");
 		} else {
