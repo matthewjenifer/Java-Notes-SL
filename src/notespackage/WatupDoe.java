@@ -165,7 +165,7 @@ public class WatupDoe {
 		System.out.println("Watup " + name + "! Was poppin " + letter + "?");
 		System.out.println(word + " " + word);
 		
-		System.out.println("Who are you really?");
+		System.out.println("Hey..who are you really?");
 		String name2 = fetch.next(); // accepts input from console
 		System.out.println("hello "+ name2);
 		System.out.println("What station is Rosenberg on "+ name2 + "?");
@@ -175,7 +175,14 @@ public class WatupDoe {
 		} else {
 			System.out.println("thats right "+ name2 + ", " + hot + " is correct! Well done.");
 		}
-
+		
+		//WHILE LOOP
+		int dollars = 7;
+		while(dollars < 10) {
+			System.out.println(dollars);
+			dollars++;
+		}
+		System.out.println("..which is why 6 was afraid of 7! get it? *rimshot*");
 	}
 
 }
