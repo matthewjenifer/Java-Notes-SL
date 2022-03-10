@@ -34,7 +34,7 @@ public class SwitchesAndScanners {
 			break;
 			case "bass" : plugin = "EZbass";
 			break;
-			default: plugin = "Serato"; // The default case can be used for performing a task when none of the cases is
+			default: plugin = "Serato Sample"; // The default case can be used for performing a task when none of the cases is
 			// matched.
 			// No break is needed in the default case, as it is always the last statement in
 			// the switch.

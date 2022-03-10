@@ -13,9 +13,6 @@ public class LoanCalculator {
 //Sample Input:
 //20000
 	
-//Sample Output:
-//10628
-	
 //Here is the monthly payment schedule:
 	
 //Month 1
