@@ -160,33 +160,24 @@ public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used 
 		}
 
 		
-		//LETS BUILD A SCANNER
-		Scanner fetch = new Scanner(System.in); // ***(imported at the top)
-		// You can now read in different kinds of input data that the user enters.
-		// Here are some methods that are available through the Scanner class:
-		// Read a byte - nextByte()
-		// Read a short - nextShort()
-		// Read an int - nextInt()
-		// Read a long - nextLong()
-		// Read a float - nextFloat()
-		// Read a double - nextDouble()
-		// Read a boolean - nextBoolean()
-		// Read a complete line - nextLine()
-		// Read a word - next()
-		
-		System.out.println("Watup " + name + "! Was poppin " + letter + "?");
-		System.out.println(word + " " + word);
-		
-		System.out.println("Hey..who are you really?");
-		String name2 = fetch.next(); // accepts input from console
-		System.out.println("hello "+ name2);
-		System.out.println("What station is Rosenberg on "+ name2 + "?");
-		double hot = fetch.nextDouble();// accepts input from console
-		if(hot != 97.1) {
-			System.out.println("Nope!");
-		} else {
-			System.out.println("thats right "+ name2 + ", " + hot + " is correct! Well done.");
-		}
+		try (//LETS BUILD A SCANNER
+		Scanner fetch = new Scanner(System.in)) {
+			System.out.println("Watup " + name + "! Was poppin " + letter + "?");
+			System.out.println(word + " " + word);
+			
+			System.out.println("Hey..who are you really?");
+			String name2 = fetch.next(); // accepts input from console
+			System.out.println("hello "+ name2);
+			System.out.println("What station is Rosenberg on "+ name2 + "?");
+			double hot = fetch.nextDouble();// accepts input from console
+			if(hot != 97.1) {
+				System.out.println("Nope!");
+			} else {
+				System.out.println("thats right "+ name2 + ", " + hot + " is correct! Well done.");
+			}
+		}  catch (Exception e) {
+			System.out.println("Something went wrong.");
+	}
 		
 		//WHILE LOOP
 		int dollars = 7;

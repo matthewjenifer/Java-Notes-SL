@@ -6,22 +6,22 @@ public class SwitchesAndScanners {
 
 	public static void main(String[] args) {
 		
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Who are you?");
-		String name = scan.next(); // accepts input from console
+		try (Scanner scan = new Scanner(System.in)) {
+			System.out.println("Who are you?");
+			String name = scan.next(); // accepts input from console
 
-		System.out.println("hello "+ name); // following input accepted at line 11, system will print user generated input
-		
-		System.out.println("..whats the number of completion?");
-		int num = scan.nextInt(); // accepts input from console
-		System.out.println("lets see..: 3*3= ...."+ num);
-		
-		if(num == 9) {
-			System.out.println("Nicley done " + name + ". The number of completion IS "+ num + "!");
-		} else {
-			System.out.println("**BUZZER** Tough luck " + name + ". The number of completion IS NOT " + num);
+			System.out.println("hello "+ name); // following input accepted at line 11, system will print user generated input
+			
+			System.out.println("..whats the number of completion?");
+			int num = scan.nextInt(); // accepts input from console
+			System.out.println("lets see..: 3*3= ...."+ num);
+			
+			if(num == 9) {
+				System.out.println("Nicley done " + name + ". The number of completion IS "+ num + "!");
+			} else {
+				System.out.println("**BUZZER** Tough luck " + name + ". The number of completion IS NOT " + num);
+			}
 		}
-		
 		String pluginChoice = "flute"; // choose: "flute","drums", "bass"
 		String recommendation = getRecommendation(pluginChoice);
 		System.out.println("Recommended plug-in: " + recommendation);

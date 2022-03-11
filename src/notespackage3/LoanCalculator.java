@@ -28,17 +28,19 @@ public class LoanCalculator {
 //Remaining amount: 14580
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		int amount = scanner.nextInt();
-		int remaining = amount ;
+		try (Scanner scanner = new Scanner(System.in)) {
+			int amount = scanner.nextInt();
+			int remaining = amount ;
 
-			for(int i=0 ; i<3 ; i++){
-				int payment= ((amount*10)/100);
-				remaining = amount - payment ;
-				amount = remaining ;
-		}
-        System.out.println(remaining);
+				for(int i=0 ; i<3 ; i++){
+					int payment= ((amount*10)/100);
+					remaining = amount - payment ;
+					amount = remaining ;
+			}
+			System.out.println(remaining);
+		} catch (Exception e) {
+			System.out.println("Something went wrong.");
 	}
 		
-
+	}
 }
