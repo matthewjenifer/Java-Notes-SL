@@ -17,7 +17,7 @@ public class SwitchesAndScanners {
 			System.out.println("lets see..: 3*3= ...."+ num);
 			
 			if(num == 9) {
-				System.out.println("Nicley done " + name + ". The number of completion IS "+ num + "!");
+				System.out.println("Nicely done " + name + ". The number of completion IS "+ num + "!");
 			} else {
 				System.out.println("**BUZZER** Tough luck " + name + ". The number of completion IS NOT " + num);
 			}

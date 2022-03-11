@@ -30,7 +30,7 @@ public class ArraysInJava {
 			// So, on each iteration of the loop, the variable "y" will be equal to the corresponding element in the array.
 		}
 
-		//MULTIDIMENTIONAL ARRAYS: or arrays that contain other arrays. 
+		//MULTI-DIMENSIONAL ARRAYS: or arrays that contain other arrays. 
 		int[][] waltz = {{1,2,3},{4,5,6}};
 		int z = waltz[1][2]; 
 		int a = waltz[0][2]; //The array's two indexes are called row index and column index.
