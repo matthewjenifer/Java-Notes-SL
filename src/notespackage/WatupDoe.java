@@ -30,7 +30,7 @@ public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used 
 	public static void main(String[] args) {
 		// In JAVA, every line of code that can actually run needs to be inside a class.
 		// Each application has an entry point, or a starting point, which is a method
-		// called main.
+		// called MAIN. | No "main()"? Nothing will print to console.
 
 		// ALL JAVA PROGRAMS begin with this main function:
 
@@ -42,17 +42,22 @@ public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used 
 		// void: method doesn't return any value
 		// main: the name of the method
 
-		// Variables in JAVA have five types:
+		// Variables in JAVA have PRIMITIVE value types & REFERENCE TYPES:
 
+		//Primitive Types
 		int number = 5;
+		byte number1 = 35; // All integers between [-128, 127] can be stored in a byte variable
+		short number2 = 3485; // All integers between [-32768, 32767] can be stored in a short variable
+		long number3 = 3485407838L; // All integers between [-9223372036854775808L, 9223372036854775807L] can be stored in a long variable. Must end in "L" or "l".
 		double height = 5.7;
-		String name = "Sah";
 		char letter = 'B';
+
+		//Reference Types: A reference type stores a reference (or address) to the memory location where the corresponding data is stored. When you create an object using the constructor, you create a reference variable.
+		String name = "Sah";
+		
+		// In JAVA operands function similar to JAVASCRIPT
 		boolean word = true;
 		
-
-		// In JAVA operands function similar to JAVASCRIPT
-
 		// Arithmetic operators:
 		// + addition
 		int x = 6 + 3;
@@ -66,11 +71,11 @@ public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used 
 		double m = 6.3 * height;
 		System.out.println(m); // prints: 35.91
 		// / division
-		int a = 6 / 3;
-		System.out.println(a); // prints: 2
+		int a1 = 6 / 3;
+		System.out.println(a1); // prints: 2
 		// % modulo (remainder after total amount of division is accomplished)
-		int b = 24 % 7;
-		System.out.println(b); // prints: 3 --> 7 goes into 24 three times(21), leaving a remainder of: 3
+		int b1 = 24 % 7;
+		System.out.println(b1); // prints: 3 --> 7 goes into 24 three times(21), leaving a remainder of: 3
 
 		// INCREMENT OPERATORS
 		// An increment or decrement operator provides a more convenient and compact way
@@ -199,6 +204,25 @@ public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used 
 		
 		Album thirdRelease = new Album("I Am...", "Nas");
 		System.out.println(thirdRelease.title + " is the third album by " + thirdRelease.artist);
+
+		int a = Math.abs(10); // Math.abs() returns the absolute value of its parameter.
+		System.out.println(a); // prints: 10
+		int b = Math.abs(-9); // Math.abs() returns the absolute value of its parameter.
+		System.out.println(b); // prints: 9
+		double c = Math.ceil(7.342); // Math.ceil() rounds a floating point value up to the nearest integer value. The rounded value is returned as a double
+		System.out.println(c); // prints: 8.0
+		double d = Math.floor(7.342); // Similarly, Math.floor() rounds a floating point value down to the nearest integer value.
+		System.out.println(d); // prints: 7.0
+		int e = Math.max(5,6); // Math.max() returns the largest of its parameters.
+		System.out.println(e); // prints: 6
+		int f = Math.min(5,6); // Math.min() returns the smallest of its parameters.
+		System.out.println(f); // prints: 5
+		double g = Math.pow(2,2); // Math.pow() takes two parameters and returns the first parameter raised to the power of the second parameter.
+		System.out.println(g); // prints: 4
+		int h = Math.abs(Math.min(-3,1));
+		System.out.println(h); // prints: 3
+
+    	// There are a number of other methods available in the Math class, including: sqrt() for square root, sin() for sine, cos() for cosine, and others.
 
 	}
 
