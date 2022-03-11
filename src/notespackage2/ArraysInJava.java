@@ -53,14 +53,15 @@ public class ArraysInJava {
 
 		System.out.println("Input String for me to Reverse:"); //PROMPT
 
-		Scanner scanner = new Scanner(System.in);
-		String text = scanner.nextLine(); //takes input..waits to execute the next few lines
-		char[] arr2 = text.toCharArray();
-		
-		String rev = ""; 
-        for (char i : arr2)
-            rev = i + rev;
-        System.out.println(rev);
+		try (Scanner scanner = new Scanner(System.in)) {
+			String text = scanner.nextLine(); //takes input..waits to execute the next few lines
+			char[] arr2 = text.toCharArray();
+			
+			String rev = ""; 
+			for (char i : arr2)
+			rev = i + rev;
+			System.out.println(rev);
+		}
 
 	}
 
