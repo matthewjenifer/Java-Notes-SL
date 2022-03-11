@@ -1,9 +1,9 @@
-package notespackage;
+package notespackage2;
 
 public class SwitchExpressions { 
 
 	public static void main(String[] args) throws Exception {
-		String pluginChoice = "synth";// choose: "sample", "bass", "keyboard", "synth", drums
+		String pluginChoice = "drums";// choose: "sample", "bass", "keyboard", "synth", drums
 		String recommendation = getRecommendation(pluginChoice);
 		System.out.println("Recommended plug-in: " + recommendation);
 	}

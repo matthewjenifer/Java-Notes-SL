@@ -1,27 +1,33 @@
 package notespackage;
+// JAVA is a high level, modern programming language designed in the early 1990s
+// by Sun Micro-systems, and currently owned by Oracle.
+
+// JAVA is PLATFORM INDEPENDENT which means that you only need to write the
+// program once to be able to run it on a number of different platforms. JAVA is
+// portable, robust and dynamic, with the ability to fit the needs of virtually
+// any type of application.
+
+// More than 3 billion devices run JAVA. JAVA is used to develop apps for
+// Android OS, various Desktop Applications, such as media players, antivirus
+// programs, Web Applications, Enterprise Applications (ie: banking) and many
+// more!
 
 // While JAVA provides many different methods for getting user input, the Scanner object is 
 // the most common, and perhaps easiest to implement. We import the Scanner class like this:
 
 import java.util.Scanner; // In order to use the Scanner class, create an instance of the class by using the following(***) syntax:
 
-public class WatupDoe {
+public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used to set the level of access. You can use access modifiers for classes, attributes, and methods.
+    
+    //The following choices are available for attributes and methods:
+        
+    // default: A variable of method declared with no access control modifier is available to any other class in the same package.
+    // public: Accessible from any other class.
+    // protected: provides the same access modifier, with the addition that subclasses can access protected methods and variables of the superclass.
+    // private: Accessible only within the declared class itself.
+    // It's a best practice to keep the variables within a class private. The variables are accessible and modified using GETTERS and SETTERS.
 
 	public static void main(String[] args) {
-
-		// JAVA is a high level, modern programming language designed in the early 1990s
-		// by Sun Micro-systems, and currently owned by Oracle.
-
-		// JAVA is PLATFORM INDEPENDENT which means that you only need to write the
-		// program once to be able to run it on a number of different platforms. JAVA is
-		// portable, robust and dynamic, with the ability to fit the needs of virtually
-		// any type of application.
-
-		// More than 3 billion devices run JAVA. JAVA is used to develop apps for
-		// Android OS, various Desktop Applications, such as media players, antivirus
-		// programs, Web Applications, Enterprise Applications (ie: banking) and many
-		// more!
-
 		// In JAVA, every line of code that can actually run needs to be inside a class.
 		// Each application has an entry point, or a starting point, which is a method
 		// called main.
@@ -78,9 +84,10 @@ public class WatupDoe {
 		System.out.println(knowledgeBorn); // prints: 9
 
 		int powerEquals = 5;
+		String watupDoe = "...whats the science kid?";
 		var refinement = powerEquals++; // POSTFIX(operator follows text): The variable's value is first used in the
 										// expression and is then increased.
-		System.out.println(refinement); // prints: 5
+		System.out.println(refinement + watupDoe); // prints: 5...whats the science kid?
 
 		// A QUICK NOTE ON EQUALS VS == :
 		// https://github.com/matthewjenifer/explaining-equals-to-me
@@ -91,7 +98,7 @@ public class WatupDoe {
 		if (cash > 5 && age > 18) {
 			System.out.println("sale");
 		} else {
-			System.out.println("no sale kid..");
+			System.out.println("no sale bro..");
 		}
 
 		int somethingForYourTrouble = cash + 15;
@@ -183,6 +190,10 @@ public class WatupDoe {
 			dollars++;
 		}
 		System.out.println("..which is why 6 was afraid of 7! get it? *rimshot*");
+
+		Album debut = new Album("Illmatic", "Nasty Nas"); //This is connected to our Album Class(Album.java). And will only run if the class is in the same package: "notespackage" (see: line 1)
+        System.out.println(debut.title + " featuring: " + debut.artist);
+
 	}
 
 }

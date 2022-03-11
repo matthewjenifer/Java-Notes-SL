@@ -1,4 +1,4 @@
-package notespackage;
+package notespackage2;
 
 import java.util.Scanner;
 
