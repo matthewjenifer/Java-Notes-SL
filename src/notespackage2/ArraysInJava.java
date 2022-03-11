@@ -31,13 +31,13 @@ public class ArraysInJava {
 		}
 
 		//MULTIDIMENTIONAL ARRAYS: or arrays that contain other arrays. 
-		int[][] sixEightTime = {{1,2,3},{4,5,6}};
-		int z = sixEightTime[1][2]; 
-		int a = sixEightTime[0][2]; //The array's two indexes are called row index and column index.
-		int b = sixEightTime[0][1]; 
-		int c = sixEightTime[1][0]; 
-		int d = sixEightTime[1][1]; 
-		int e = sixEightTime[0][0]; 
+		int[][] waltz = {{1,2,3},{4,5,6}};
+		int z = waltz[1][2]; 
+		int a = waltz[0][2]; //The array's two indexes are called row index and column index.
+		int b = waltz[0][1]; 
+		int c = waltz[1][0]; 
+		int d = waltz[1][1]; 
+		int e = waltz[0][0]; 
 		System.out.println(z); //prints: 6
 		System.out.println(a); //prints: 3 (see: row index and column index.)
 		System.out.println(b); //prints: 2
