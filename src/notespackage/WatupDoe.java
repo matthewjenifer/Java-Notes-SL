@@ -46,9 +46,13 @@ public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used 
 
 		//Primitive Types
 		int number = 5;
+		System.out.println(number);
 		byte number1 = 35; // All integers between [-128, 127] can be stored in a byte variable
+		System.out.println(number1);
 		short number2 = 3485; // All integers between [-32768, 32767] can be stored in a short variable
+		System.out.println(number2);
 		long number3 = 3485407838L; // All integers between [-9223372036854775808L, 9223372036854775807L] can be stored in a long variable. Must end in "L" or "l".
+		System.out.println(number3);
 		double height = 5.7;
 		char letter = 'B';
 
@@ -162,7 +166,7 @@ public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used 
 		
 		try (//LETS BUILD A SCANNER
 		Scanner fetch = new Scanner(System.in)) {
-			System.out.println("Watup " + name + "! Was poppin " + letter + "?");
+			System.out.println("Watup " + name + "! Whats popping " + letter + "?");
 			System.out.println(word + " " + word);
 			
 			System.out.println("Hey..who are you really?");
@@ -185,13 +189,13 @@ public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used 
 			System.out.println(dollars);
 			dollars++;
 		}
-		System.out.println("..which is why 6 was afraid of 7! get it? *rimshot*");
+		System.out.println("..which is why 6 was afraid of 7! get it? *rim shot*");
 
 		Album debut = new Album("Illmatic", "Nasty Nas"); //This is connected to our Album Class(Album.java). And will only run if the class is in the same package: "notespackage" (see: line 1)
         System.out.println(debut.title + " is the first album by " + debut.artist);
 
-		Album sophmore = new Album("It Was Written", "Nasir Jones");
-		System.out.println(sophmore.title + " is the second album by " + sophmore.artist);
+		Album sophomore = new Album("It Was Written", "Nasir Jones");
+		System.out.println(sophomore.title + " is the second album by " + sophomore.artist);
 		
 		Album thirdRelease = new Album("I Am...", "Nas");
 		System.out.println(thirdRelease.title + " is the third album by " + thirdRelease.artist);
