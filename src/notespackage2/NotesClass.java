@@ -16,12 +16,14 @@ public class NotesClass {
     System.out.println("Season: " + (e.getSeason()));
     
 
-    Actor1 martin = new Actor1();
+    Actor1 martin = new Actor1(); //Inheritance is the process that enables one class to acquire the properties (methods and variables) of another. With inheritance, the information is placed in a more manageable, hierarchical order.
 
     martin.yearRelease();
     martin.episodeNext();
     martin.titleCard();
     martin.whichChannel();
+
+    
 
     Actor2 tommy = new Actor2();
     tommy.stream();
