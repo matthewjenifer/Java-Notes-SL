@@ -10,24 +10,36 @@ public class NotesClass {
     //System.out.println(pi);
 
     Encapsulation e = new Encapsulation();
-        e.setShow("Martin");
+        e.setShow("Martin"); // prints: Martin
         e.setSeason(4);
     System.out.println(e.getShow());
-    System.out.println("Season: " + (e.getSeason()));
+    System.out.println("Season: " + (e.getSeason())); // prints: Season: 4
     
 
     Actor1 martin = new Actor1(); //Inheritance is the process that enables one class to acquire the properties (methods and variables) of another. With inheritance, the information is placed in a more manageable, hierarchical order.
 
-    martin.yearRelease();
-    martin.episodeNext();
-    martin.titleCard();
-    martin.whichChannel();
+    martin.yearRelease(); // prints: 1995
+    martin.episodeNext(); // prints: Episode 88
+    martin.titleCard(); // prints: Uptown Friday Night
+    martin.setCo(); // prints: Co Starring - Tommy
+    martin.whichChannel(); // prints: on BET
 
     
 
-    Actor2 tommy = new Actor2();
-    tommy.stream();
+    Actor2 bet = new Actor2();
+    bet.stream(); //prints: Streaming NOW...
 
+    Overload obj1 = new Overload(); // Overload obj1 = new Overload(); | The first word in your syntax has to mirror the class with the method you're called (now defined as "obj1")
+    obj1.print(20); // prints: 20
+    obj1.print(4.9); // prints: 4.9
+    obj1.print("CGI Martin"); // prints: CGI Martin
+    obj1.print(10,21); // prints: int: 0 | int: 7
+
+    //BONUS example: second call on first print() method: public void print(int num)
+    obj1.print('c'); //prints: int 99 (ASCII equivalent)
+    
+    
     
     }
+
 }

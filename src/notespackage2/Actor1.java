@@ -2,11 +2,13 @@ package notespackage2;
 
 public class Actor1 extends Actor { // To inherit from a class, use the extends keyword. Here, Actor1 is the subclass, and Actor is the superclass. When a class is inherited from another class, it inherits all of the superclass' non-private variables and methods. | You can access the superclass from the subclass using the super keyword.
     
-    String extraRole = "Gina";
+    String extraRole = "Co Starring - Tommy";
 
-    public static void setCo(String costar) {
-        System.out.println(costar);
+    public void setCo() {
+        System.out.println(extraRole);
     }
+
+
     
 
 }

@@ -1,17 +1,17 @@
 package notespackage2;
 
 public class Actor { //Inheritance is the process that enables one class to acquire the properties (methods and variables) of another. With inheritance, the information is placed in a more manageable, hierarchical order.
-    public static void titleCard() {
+    public void titleCard() {
         System.out.println("Uptown Friday Night");
     }
-    public static void whichChannel() {
+    public void whichChannel() {
         System.out.println("on BET");
         
     }
-    public static void episodeNext()  {
+    public void episodeNext()  {
         System.out.println("Episode 88");
     } 
-    public static void yearRelease() {
+    public void yearRelease() {
         System.out.println("1995");
     }
     
