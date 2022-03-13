@@ -49,7 +49,7 @@ public class NotesClassMAIN {
 
     switch(a) {
             case JEROME:
-            System.out.println(".....n'if I tell you a duck could pull a truck, then shutupndhookthesuckaup");
+            System.out.println("...n'if I tell you a duck could pull a truck, thenshutupnhookthasuckaup");
             break;
             case TOMMY:
             System.out.println("Jerome we aint tryna be hangin wit you either man..");
