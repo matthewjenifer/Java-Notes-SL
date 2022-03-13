@@ -1,5 +1,4 @@
 package notespackage2;
-
 public class Overload { // Another name for method overloading is compile-time polymorphism. (see: Polymorphism.java)
     public void print(int num){ // When methods have the same name but different parameters, it is known as method overloading.
         System.out.println("Episodes to go:");

@@ -1,5 +1,4 @@
 package notespackage2;
-
 public class OOP {
     //OBJECT ORIENTATION: Java uses object orientated programming, in attempt to make thinking about programming closer to thinking about the real world. In OOP, each object is an independent unit with a unique identity, just as objects in the real world are. Objects also have characteristics, which are used to describe them.  For example, a car can be blue or red, a mug can be empty or full, etc etc. These characteristics are also called attributes. An attribute describes the current state of an object. In the real world, each object behaves its own way. The car moves, the phone rings, and so on. The same applies to objects: behavior is specific to the object's type. 
 

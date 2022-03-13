@@ -1,7 +1,5 @@
 package notespackage2;
-
 public class SwitchExpressions { 
-
 	public static void main(String[] args) throws Exception {
 		String pluginChoice = "drums";// choose: "sample", "bass", "keyboard", "synth", drums
 		String recommendation = getRecommendation(pluginChoice);
@@ -20,7 +18,6 @@ public class SwitchExpressions {
 			default -> throw new Exception("Not a valid choice");
 
 		};
-		
 		
 	}
 }

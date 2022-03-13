@@ -16,7 +16,6 @@ package notespackage;
 // the most common, and perhaps easiest to implement. We import the Scanner class like this:
 
 import java.util.Scanner; // In order to use the Scanner class, create an instance of the class by using the following(***) syntax:
-
 public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used to set the level of access. You can use access modifiers for classes, attributes, and methods.
     
     //The following choices are available for attributes and methods:
@@ -26,7 +25,6 @@ public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used 
     // protected: provides the same access modifier, with the addition that subclasses can access protected methods and variables of the superclass.
     // private: Accessible only within the declared class itself.
     // It's a best practice to keep the variables within a class private. The variables are accessible and modified using GETTERS and SETTERS.
-
 	public static void main(String[] args) {
 		// In JAVA, every line of code that can actually run needs to be inside a class.
 		// Each application has an entry point, or a starting point, which is a method
@@ -131,7 +129,6 @@ public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used 
 					// control jumps to the next line after the switch statement. Not every case
 					// needs to contain a break. If no break appears, the flow of control will fall
 					// through to subsequent cases until a break is reached.
-
 		case 4:
 			System.out.println("west");
 			break;
@@ -162,7 +159,6 @@ public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used 
 			// the switch.
 			System.out.println("in this bitch!");
 		}
-
 		
 		try (//LETS BUILD A SCANNER
 		Scanner fetch = new Scanner(System.in)) {
@@ -218,7 +214,6 @@ public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used 
 		System.out.println(h); // prints: 3
 
     	// There are a number of other methods available in the Math class, including: sqrt() for square root, sin() for sine, cos() for cosine, and others.
-
 	}
 
 }

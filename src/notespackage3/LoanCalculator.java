@@ -1,7 +1,6 @@
 package notespackage3;
 
 import java.util.Scanner;
-
 public class LoanCalculator {
 
 	// LOAN CALCULATOR

@@ -1,5 +1,4 @@
 package notespackage2;
-
 interface WaterBottleInterface { //An INTERFACE is a completely abstract class that contains only abstract methods.
 
     String color = "Blue";
@@ -23,8 +22,6 @@ interface WaterBottleInterface { //An INTERFACE is a completely abstract class t
 
     // A class can inherit from just one superclass, but can implement multiple interfaces.
 }
-
-
 public class InterfaceExample implements WaterBottleInterface { // Use the implements keyword to use an interface with your class.
     public static void main(String[] args) {
         System.out.println(color);

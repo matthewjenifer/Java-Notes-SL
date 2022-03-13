@@ -9,16 +9,5 @@ public class Abstraction { //ABSTRACTION: Data abstraction provides the outside 
     // - Any class that contains an abstract method should be defined as abstract.
 
     // An abstract method is a method that is declared without an implementation (without braces, and followed by a semicolon). ex: abstract void walk()
-
-    // abstract class Animal {
-    //     int legs = 0;
-    //     abstract void makeSound();
-    // }
-
-    // class Cat extends Animal {
-    //     public void makeSound() {
-    //         System.out.println("Meow");
-    //     }
-    // }
     
 }

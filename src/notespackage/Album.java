@@ -1,5 +1,4 @@
 package notespackage;
-
 public class Album {
 
     String artist;

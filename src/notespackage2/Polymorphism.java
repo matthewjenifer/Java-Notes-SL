@@ -1,23 +1,19 @@
 package notespackage2;
-
 class Bird {
     public void sing() {
         System.out.println("It's yo thang");
     }
 }
-
 class Robin extends Bird {
     public void sing() { //Method Overriding: A subclass can define a behavior that's specific to the subclass type, meaning that a subclass can implement a parent class method based on its requirement. This feature is known as method overriding. 
         System.out.println("do what you wanna do");
     }
 }
-
 class Pelican extends Bird {
     public void sing() {
         System.out.println("I cant tell ya who to sock it to");
     }
 }
-
 public class Polymorphism { // Polymorphism, which refers to the idea of "having many forms", occurs when there is a hierarchy of classes related to each other through inheritance. A call to a member method will cause a different implementation to be executed, depending on the type of the object invoking the method. Above: Robin and Pelican are classes that inherit from the Bird class. Each class has its own implementation of the makeSound() method. 
 
     public static void main(String[] args) {

@@ -1,5 +1,4 @@
 package notespackage2;
-
 public class FlatScreen extends Device {
 
     @Override

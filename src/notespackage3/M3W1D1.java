@@ -1,9 +1,7 @@
 package notespackage3;
 
 import java.util.Scanner;
-
 public class M3W1D1 {
-
     public static void main(String[] args){
         // Write a Java program that display the larger of two integers
         int x = 9;
@@ -37,10 +35,7 @@ public class M3W1D1 {
                 } else {
                     System.out.println("Good Evening");
                 }
-            } 
-        
-            ;
-
+        } 
     }
 }
 

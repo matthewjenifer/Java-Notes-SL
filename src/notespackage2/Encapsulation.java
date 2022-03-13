@@ -1,5 +1,4 @@
 package notespackage2;
-
 public class Encapsulation {  //ENCAPSULATION: There are 4 core concepts in OOP- encapsulation, inheritance, polymorphism and abstraction. 
 
     private String show; // The idea behind ENCAPSULATION is to ensure that implementation details are not visible to users. The various of one class will be hidden from the other classes, accessible only through the methods of the current class. This is called data hiding.
