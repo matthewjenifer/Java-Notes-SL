@@ -38,7 +38,7 @@ public class NotesClassMAIN {
     
     FlatScreen hdmi = new FlatScreen();
     
-    hdmi.connect();
+    hdmi.connect(); // prints: Device connected
     
     bet.stream(); //prints: Streaming NOW...
 }
