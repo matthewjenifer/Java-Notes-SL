@@ -26,19 +26,21 @@ public class NotesClassMAIN {
 
     
     Actor2 bet = new Actor2();
-    bet.stream(); //prints: Streaming NOW...
     
     Overload obj1 = new Overload(); // Overload obj1 = new Overload(); | The first word in your syntax has to mirror the class with the method you're called (now defined as "obj1") - see: Overload.java
     obj1.print(20); // prints: 20
     obj1.print(4.9); // prints: 4.9
     obj1.print("CGI Martin"); // prints: CGI Martin
     obj1.print(10,21); // prints: int: 0 | int: 7
-
+    
     //BONUS example: second call on first print() method: public void print(int num)
     obj1.print('c'); //prints: int 99 (ASCII equivalent)
     
+    FlatScreen hdmi = new FlatScreen();
     
+    hdmi.connect();
     
-    }
+    bet.stream(); //prints: Streaming NOW...
+}
 
 }
