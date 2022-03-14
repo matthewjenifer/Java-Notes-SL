@@ -27,7 +27,7 @@ public class LoanCalculator {
 //Remaining amount: 14580
 
 	public static void main(String[] args) {
-		try (Scanner scanner = new Scanner(System.in)) {
+		try (Scanner scanner = new Scanner(System.in)) { // Exceptions can be caught using a combination of the try and catch keywords. A try/catch block is places around the code that might generate an exception.
 			int amount = scanner.nextInt();
 			int remaining = amount ;
 
@@ -37,8 +37,17 @@ public class LoanCalculator {
 					amount = remaining ;
 			}
 			System.out.println(remaining);
-		} catch (Exception e) {
+		} catch (Exception e) { // EXCEPTIONS
+			// A catch statement involves declaring the type of exception you are trying to catch. If an exception occurs in the try block, the catch block that follows the try is checked. If the exception that occurred is listed in a catch block, the exception is passed to the catch block much as an argument is passed into a method parameter. The Exception type can be used to catch all possible exceptions.
 			System.out.println("Something went wrong.");
+			// An exception is a problem is a problem that occurs during program execution. Exceptions cause abnormal termination of the program. Exception handling is a powerful mechanism that handles runtime errors to maintain normal application flow.
+
+			//An exception can occur for many different reasons. Some examples:
+
+			//- A user has entered invalid data.
+			//- A file that needs to be opened cannot be found.
+			//- A network connection has been lost in the middle of communications.
+			//- Insufficient memory and other issues related to physical resources.
 	}
 		
 	}
