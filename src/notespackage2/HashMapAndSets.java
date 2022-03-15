@@ -8,7 +8,7 @@ import java.util.HashSet; // A Set is a collection that cannot contain duplicate
 import java.util.Iterator;// An Iterator is an object that enables to cycle through a collection, obtain or remove elements. Before you can access a collection classes provides an iterator() method that returns an iterator to the start of the collection. By using this iterator object, you can access each element in the collection, one at a time. 
 import java.util.LinkedList;
 
-import jav.io.File; // The java.io package includes a File class that allows you to work with files.
+//import jav.io.File; // The java.io package includes a File class that allows you to work with files.
 
 public class HashMapAndSets { // A HashMap cannot contain duplicate keys. Adding a new item with a key that already exists overwrites the old element. The HashMap class provides containsKey and containsValue methods that determine the presence of a specified key or value.  If you try to get a value that is not present in your map, it returns the value of null. null is a special type that represents the absence of a value. 
     public static void main(String[] args) {
