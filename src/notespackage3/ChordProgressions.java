@@ -4,88 +4,124 @@ package notespackage3;
 public class ChordProgressions {
 
     public static void main(String[] args) {
-        int[] axis;
-        axis = new int[4];
-        axis[0] = 1; // I
-        axis[1] = 4; // V
-        axis[2] = 5; // vi
-        axis[3] = 3; // IV
-
+        System.out.println("-----------------");
         System.out.println("Axis Progression:");
-
-        for (int i = 0; i < axis.length; i++)
-            System.out.println("Maj1 : " + "Pad-" + axis[i]);
-
-        int[] axisAlt;
-        axisAlt = new int[4];
-        axisAlt[0] = 5; // vi
-        axisAlt[1] = 3; // IV
-        axisAlt[2] = 1; // I
-        axisAlt[3] = 4; // V
+		String[][] axis = {{"I","V","vi","IV"},{"1","4","5","3"}};
+		String a = axis[0][0]; 
+		String b = axis[0][1]; 
+		String c = axis[0][2]; 
+		String d = axis[0][3];
+        String e = axis[1][0]; 
+		String f = axis[1][1]; 
+		String g = axis[1][2]; 
+		String h = axis[1][3];  
+        System.out.println("-----------------");
+		System.out.println("Maj1 " + "(" + a + "):" + " Pad-" + e); 
+		System.out.println("Maj1 " + "(" + b + "):" + " Pad-" + f); 
+		System.out.println("Maj1 " + "(" + c + "):" + " Pad-" + g); 
+		System.out.println("Maj1 " + "(" + d + "):" + " Pad-" + h);
+        System.out.println("-----------------"); 
 
         System.out.println("Axis ALT Progression:");
-
-        for (int i = 0; i < axisAlt.length; i++)
-            System.out.println("Maj1 : " + "Pad-" + axisAlt[i]);
-
-        int[] andalusian;
-        andalusian = new int[4];
-        andalusian[0] = 1; // i
-        andalusian[1] = 3; // bVII
-        andalusian[2] = 5; // bVI
-        andalusian[3] = 8; // V
+		String[][] axisAlt = {{"vi","IV","I","V"},{"5","3","1","4"}};
+		String i = axisAlt[0][0]; 
+		String j = axisAlt[0][1]; 
+		String k = axisAlt[0][2]; 
+		String l = axisAlt[0][3];
+        String m = axisAlt[1][0]; 
+		String n = axisAlt[1][1]; 
+		String o = axisAlt[1][2]; 
+		String p = axisAlt[1][3];  
+        System.out.println("-----------------");
+		System.out.println("Maj1 " + "(" + i + "):" + " Pad-" + m); 
+		System.out.println("Maj1 " + "(" + j + "):" + " Pad-" + n); 
+		System.out.println("Maj1 " + "(" + k + "):" + " Pad-" + o); 
+		System.out.println("Maj1 " + "(" + l + "):" + " Pad-" + p);
+        System.out.println("-----------------"); 
 
         System.out.println("Andalusian Cadence:");
+		String[][] andalusian = {{"i","bVII","bVI","V"},{"1","3","5","8"}};
+		String aa = andalusian[0][0]; 
+		String bb = andalusian[0][1]; 
+		String cc = andalusian[0][2]; 
+		String dd = andalusian[0][3];
+        String ee = andalusian[1][0]; 
+		String ff = andalusian[1][1]; 
+		String gg = andalusian[1][2]; 
+		String hh = andalusian[1][3];  
+        System.out.println("-----------------");
+		System.out.println("Min6 " + "(" + aa + "):" + " Pad-" + ee); 
+		System.out.println("Min6 " + "(" + bb + "):" + " Pad-" + ff); 
+		System.out.println("Min6 " + "(" + cc + "):" + " Pad-" + gg); 
+		System.out.println("Min6 " + "(" + dd + "):" + " Pad-" + hh);
+        System.out.println("-----------------"); 
 
-        for (int i = 0; i < andalusian.length; i++)
-            System.out.println("Min6 : " + "Pad-" + andalusian[i]);
+        System.out.println("Aeloian Vamp:");
+		String[][] aeloian = {{"i","bVII","bVI","bVII"},{"1","3","5","3"}};
+		String aaa = aeloian[0][0]; 
+		String bbb = aeloian[0][1]; 
+		String ccc = aeloian[0][2]; 
+		String ddd = aeloian[0][3];
+        String eee = aeloian[1][0]; 
+		String fff = aeloian[1][1]; 
+		String ggg = aeloian[1][2]; 
+		String hhh = aeloian[1][3];  
+        System.out.println("-----------------");
+		System.out.println("Min6 " + "(" + aaa + "):" + " Pad-" + eee); 
+		System.out.println("Min6 " + "(" + bbb + "):" + " Pad-" + fff); 
+		System.out.println("Min6 " + "(" + ccc + "):" + " Pad-" + ggg); 
+		System.out.println("Min6 " + "(" + ddd + "):" + " Pad-" + hhh);
+        System.out.println("-----------------"); 
 
-        int[] aeloian;
-        aeloian = new int[4];
-        aeloian[0] = 1; // i
-        aeloian[1] = 3; // bVII
-        aeloian[2] = 5; // bVI
-        aeloian[3] = 3; // bVII
+        System.out.println("DooWop Riff:");
+		String[][] doowop = {{"I","vi","IV","V"},{"1","5","3","4"}};
+		String aaaa = doowop[0][0]; 
+		String bbbb = doowop[0][1]; 
+		String cccc = doowop[0][2]; 
+		String dddd = doowop[0][3];
+        String eeee = doowop[1][0]; 
+		String ffff = doowop[1][1]; 
+		String gggg = doowop[1][2]; 
+		String hhhh = doowop[1][3];  
+        System.out.println("-----------------");
+		System.out.println("Maj1 " + "(" + aaaa + "):" + " Pad-" + eeee); 
+		System.out.println("Maj1 " + "(" + bbbb + "):" + " Pad-" + ffff); 
+		System.out.println("Maj1 " + "(" + cccc + "):" + " Pad-" + gggg); 
+		System.out.println("Maj1 " + "(" + dddd + "):" + " Pad-" + hhhh);
+        System.out.println("-----------------"); 
 
-        System.out.println("Aeolian Vamp:");
+        System.out.println("Major Scale:");
+		String[][] major = {{"I","V","IV","V"},{"1","4","3","4"}};
+		String aaaaa = major[0][0]; 
+		String bbbbb = major[0][1]; 
+		String ccccc = major[0][2]; 
+		String ddddd = major[0][3];
+        String eeeee = major[1][0]; 
+		String fffff = major[1][1]; 
+		String ggggg = major[1][2]; 
+		String hhhhh = major[1][3];  
+        System.out.println("-----------------");
+		System.out.println("Maj1 " + "(" + aaaaa + "):" + " Pad-" + eeeee); 
+		System.out.println("Maj1 " + "(" + bbbbb + "):" + " Pad-" + fffff); 
+		System.out.println("Maj1 " + "(" + ccccc + "):" + " Pad-" + ggggg); 
+		System.out.println("Maj1 " + "(" + ddddd + "):" + " Pad-" + hhhhh);
+        System.out.println("-----------------"); 
 
-        for (int i = 0; i < aeloian.length; i++)
-            System.out.println("Min6 : " + "Pad-" + aeloian[i]);
-
-        int[] doowop;
-        doowop = new int[4];
-        doowop[0] = 1; // I
-        doowop[1] = 5; // vi
-        doowop[2] = 3; // IV
-        doowop[3] = 4; // V
-
-        System.out.println("DooWop Vamp:");
-
-        for (int i = 0; i < doowop.length; i++)
-            System.out.println("Maj1 : " + "Pad-" + doowop[i]);
-
-        int[] major;
-        major = new int[4];
-        major[0] = 1; // I
-        major[1] = 4; // V
-        major[2] = 3; // IV
-        major[3] = 4; // V
-
-        System.out.println("Major Scale Vamp:");
-
-        for (int i = 0; i < major.length; i++)
-            System.out.println("Maj1 : " + "Pad-" + major[i]);
-
-        int[] mixolydian;
-        mixolydian = new int[4];
-        mixolydian[0] = 1; // I
-        mixolydian[1] = 7; // bVII
-        mixolydian[2] = 8; // IV
-        mixolydian[3] = 1; // I
-
-        System.out.println("Mixolydian Vamp:");
-
-        for (int i = 0; i < mixolydian.length; i++)
-            System.out.println("Maj5 : " + "Pad-" + mixolydian[i]);
+        System.out.println("Mixolydian Progression:");
+		String[][] mixolydian = {{"I","bVII","IV","I"},{"1","7","8","1"}};
+		String aaaaaa = mixolydian[0][0]; 
+		String bbbbbb = mixolydian[0][1]; 
+		String cccccc = mixolydian[0][2]; 
+		String dddddd = mixolydian[0][3];
+        String eeeeee = mixolydian[1][0]; 
+		String ffffff = mixolydian[1][1]; 
+		String gggggg = mixolydian[1][2]; 
+		String hhhhhh = mixolydian[1][3];  
+        System.out.println("-----------------");
+		System.out.println("Maj1 " + "(" + aaaaaa + "):" + " Pad-" + eeeeee); 
+		System.out.println("Maj1 " + "(" + bbbbbb + "):" + " Pad-" + ffffff); 
+		System.out.println("Maj1 " + "(" + cccccc + "):" + " Pad-" + gggggg); 
+		System.out.println("Maj1 " + "(" + dddddd + "):" + " Pad-" + hhhhhh);
+        System.out.println("-----------------"); 
     }
 }
