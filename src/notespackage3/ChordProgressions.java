@@ -5,7 +5,7 @@ public class ChordProgressions {
 
     public static void main(String[] args) {
         System.out.println("-----------------");
-        System.out.println("Axis Progression:");
+        System.out.println("(1) Axis Progression:");
         String[][] axis = { { "I", "V", "vi", "IV" }, { "1", "4", "5", "3" } };
         String a = axis[0][0];
         String b = axis[0][1];
@@ -22,7 +22,7 @@ public class ChordProgressions {
         System.out.println("Maj1 " + "(" + d + "):" + " Pad-" + h);
         System.out.println("-----------------");
 
-        System.out.println("Axis ALT Progression:");
+        System.out.println("(2) Axis ALT Progression:");
         System.out.println("-----------------");
         System.out.println("Maj1 " + "(" + c + "):" + " Pad-" + g);
         System.out.println("Maj1 " + "(" + d + "):" + " Pad-" + h);
@@ -30,7 +30,7 @@ public class ChordProgressions {
         System.out.println("Maj1 " + "(" + b + "):" + " Pad-" + f);
         System.out.println("-----------------");
 
-        System.out.println("Andalusian Cadence:");
+        System.out.println("(3) Andalusian Cadence:");
         String[][] andalusian = { { "i", "bVII", "bVI", "V" }, { "1", "3", "5", "8" } };
         String aa = andalusian[0][0];
         String bb = andalusian[0][1];
@@ -47,7 +47,7 @@ public class ChordProgressions {
         System.out.println("Min6 " + "(" + dd + "):" + " Pad-" + hh);
         System.out.println("-----------------");
 
-        System.out.println("Aeloian Vamp:");
+        System.out.println("(4) Aeloian Vamp:");
         String[][] aeloian = { { "i", "bVII", "bVI", "bVII" }, { "1", "3", "5", "3" } };
         String aaa = aeloian[0][0];
         String bbb = aeloian[0][1];
@@ -64,7 +64,7 @@ public class ChordProgressions {
         System.out.println("Min6 " + "(" + ddd + "):" + " Pad-" + hhh);
         System.out.println("-----------------");
 
-        System.out.println("DooWop Riff:");
+        System.out.println("(5) DooWop Riff:");
         String[][] doowop = { { "I", "vi", "IV", "V" }, { "1", "5", "3", "4" } };
         String aaaa = doowop[0][0];
         String bbbb = doowop[0][1];
@@ -81,7 +81,7 @@ public class ChordProgressions {
         System.out.println("Maj1 " + "(" + dddd + "):" + " Pad-" + hhhh);
         System.out.println("-----------------");
 
-        System.out.println("Major Scale:");
+        System.out.println("(6) Major Scale:");
         String[][] major = { { "I", "V", "IV", "V" }, { "1", "4", "3", "4" } };
         String aaaaa = major[0][0];
         String bbbbb = major[0][1];
@@ -98,7 +98,7 @@ public class ChordProgressions {
         System.out.println("Maj1 " + "(" + ddddd + "):" + " Pad-" + hhhhh);
         System.out.println("-----------------");
 
-        System.out.println("Mixolydian Progression:");
+        System.out.println("(7) Mixolydian Progression:");
         String[][] mixolydian = { { "I", "bVII", "IV", "I" }, { "1", "7", "8", "1" } };
         String aaaaaa = mixolydian[0][0];
         String bbbbbb = mixolydian[0][1];
