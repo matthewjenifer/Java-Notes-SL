@@ -71,7 +71,7 @@ public class ChordProgressions {
         major[2] = 3; // IV
         major[3] = 4; // V
 
-        System.out.println("Major Scale Vamp MK3:");
+        System.out.println("Major Scale Vamp:");
 
         for (int i = 0; i < major.length; i++)
             System.out.println("Maj1 : " + "Pad-" + major[i]);
@@ -83,7 +83,7 @@ public class ChordProgressions {
         mixolydian[2] = 8; // IV
         mixolydian[3] = 1; // I
 
-        System.out.println("Mixolydian Vamp MK3:");
+        System.out.println("Mixolydian Vamp:");
 
         for (int i = 0; i < mixolydian.length; i++)
             System.out.println("Maj5 : " + "Pad-" + mixolydian[i]);
