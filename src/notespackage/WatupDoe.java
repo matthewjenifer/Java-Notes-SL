@@ -187,14 +187,6 @@ public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used 
 		}
 		System.out.println("..which is why 6 was afraid of 7! get it? *rim shot*");
 
-		Album debut = new Album("Illmatic", "Nasty Nas"); //This is connected to our Album Class(Album.java). And will only run if the class is in the same package: "notespackage" (see: line 1)
-        System.out.println(debut.title + " is the first album by " + debut.artist);
-
-		Album sophomore = new Album("It Was Written", "Nasir Jones");
-		System.out.println(sophomore.title + " is the second album by " + sophomore.artist);
-		
-		Album thirdRelease = new Album("I Am...", "Nas");
-		System.out.println(thirdRelease.title + " is the third album by " + thirdRelease.artist);
 
 		int a = Math.abs(10); // Math.abs() returns the absolute value of its parameter.
 		System.out.println(a); // prints: 10
@@ -214,6 +206,8 @@ public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used 
 		System.out.println(h); // prints: 3
 
     	// There are a number of other methods available in the Math class, including: sqrt() for square root, sin() for sine, cos() for cosine, and others.
+
+		// https://www.sololearn.com/certificates/course/en/25243338/1068/landscape/png
 	}
 
 }

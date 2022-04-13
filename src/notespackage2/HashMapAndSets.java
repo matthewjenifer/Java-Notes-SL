@@ -1,7 +1,7 @@
 package notespackage2;
 
 import java.util.HashMap; // Arrays and Lists store elements as ordered collections, with each element given an integer index. HashMap is used for storing data collections as key and value pairs. One object is used as a key (index) to another object (the value). The put, remove, and get methods are used to add, delete, and access values in the HashMap.
-import java.util.Collections;
+// import java.util.Collections;
 
 import java.util.HashSet; // A Set is a collection that cannot contain duplicate elements. It models the mathematical set abstraction. One of the implementations of the Set is the HashSet class.
 
