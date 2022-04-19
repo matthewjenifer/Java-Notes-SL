@@ -109,10 +109,10 @@ public class ChordProgressions {
         String gggggg = mixolydian[1][2];
         String hhhhhh = mixolydian[1][3];
         System.out.println("-----------------");
-        System.out.println("Maj1 " + "(" + aaaaaa + "):" + " Pad-" + eeeeee);
-        System.out.println("Maj1 " + "(" + bbbbbb + "):" + " Pad-" + ffffff);
-        System.out.println("Maj1 " + "(" + cccccc + "):" + " Pad-" + gggggg);
-        System.out.println("Maj1 " + "(" + dddddd + "):" + " Pad-" + hhhhhh);
+        System.out.println("Maj5 " + "(" + aaaaaa + "):" + " Pad-" + eeeeee);
+        System.out.println("Maj5 " + "(" + bbbbbb + "):" + " Pad-" + ffffff);
+        System.out.println("Maj5 " + "(" + cccccc + "):" + " Pad-" + gggggg);
+        System.out.println("Maj5 " + "(" + dddddd + "):" + " Pad-" + hhhhhh);
         System.out.println("-----------------");
     }
 }
