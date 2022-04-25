@@ -5,7 +5,7 @@ public class ScalesAndModes {
 
         String[] cMajor = {"C","D","E","F","G","A","B", "C"}; // BRIGHT-POP VIBES
         // String[] dDorian = {"D","E","F","G","A","B","C","D"}; // FUNKY-DARK VIBES
-        // String[] dPhrygian = {"E","F","G","A","B","C","D","E"}; // FOREBODING-MYSTERY VIBES
+        // String[] ePhrygian = {"E","F","G","A","B","C","D","E"}; // FOREBODING-MYSTERY VIBES
         // String[] fLydian = {"F","G","A","B","C","D","E","F"}; // ETHEREAL VIBES (most unstable)
         // String[] gMixolydian = {"G","A","B","C","D","E","F","G"}; // BLUESY VIBES
         String[] aAeolian = {"A","B","C","D","E","F","G", "A"}; // MINOR-ALT VIBES
