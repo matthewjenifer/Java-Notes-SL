@@ -3,7 +3,7 @@ package notespackage3;
 public class ScalesAndModes {
     public static void main(String[] args) {
 
-        String[] cMajor = {"C","D","E","F","G","A","B", "C"}; // BRIGHT-POP VIBES
+        String[] cMajor = {"C","D","E","F","G","A","B", "C"}; // (aka Ionian) POP VIBES
         // String[] dDorian = {"D","E","F","G","A","B","C","D"}; // FUNKY-DARK VIBES
         // String[] ePhrygian = {"E","F","G","A","B","C","D","E"}; // FOREBODING-MYSTERY VIBES
         // String[] fLydian = {"F","G","A","B","C","D","E","F"}; // ETHEREAL VIBES (most unstable)
