@@ -14,14 +14,14 @@ public class PhrygianProgrssions {
         String g = theClash[1][2];
         String h = theClash[1][3];
         System.out.println("-----------------");
-        System.out.println("Bm_Min2 " + "(" + a + "):" + " Pad-" + e);
-        System.out.println("Am_Min2 " + "(" + b + "):" + " Pad-" + f);
-        System.out.println("B_Min2 " + "(" + a + "):" + " Pad-" + e);
-        System.out.println("Am_Min2 " + "(" + b + "):" + " Pad-" + f);
-        System.out.println("Bm_Min2 " + "(" + a + "):" + " Pad-" + e);
-        System.out.println("Bm_Min3 " + "(" + c + "):" + " Pad-" + g);
-        System.out.println("Bm_Min2 " + "(" + a + "):" + " Pad-" + e);
-        System.out.println("Bm_Min3 " + "(" + d + "):" + " Pad-" + h);
+        System.out.println("r_Bm-Min2 " + "(" + a + "):" + " Pad-" + e);
+        System.out.println("r_Am-Min2 " + "(" + b + "):" + " Pad-" + f);
+        System.out.println("r_B-Min2 " + "(" + a + "):" + " Pad-" + e);
+        System.out.println("r_Am-Min2 " + "(" + b + "):" + " Pad-" + f);
+        System.out.println("r_Bm-Min2 " + "(" + a + "):" + " Pad-" + e);
+        System.out.println("r_Bm-Min3 " + "(" + c + "):" + " Pad-" + g);
+        System.out.println("r_Bm-Min2 " + "(" + a + "):" + " Pad-" + e);
+        System.out.println("r_Bm-Min3 " + "(" + d + "):" + " Pad-" + h);
         System.out.println("-----------------");
     }
 }
