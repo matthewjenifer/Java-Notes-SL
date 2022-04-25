@@ -4,10 +4,10 @@ public class ScalesAndModes {
     public static void main(String[] args) {
 
         String[] cMajor = {"C","D","E","F","G","A","B", "C"}; // (aka Ionian) POP VIBES
-        // String[] dDorian = {"D","E","F","G","A","B","C","D"}; // FUNKY-DARK VIBES
+        // String[] dDorian = {"D","E","F","G","A","B","C","D"}; // FUNKY-DARK-SAD VIBES
         // String[] ePhrygian = {"E","F","G","A","B","C","D","E"}; // FOREBODING-MYSTERY VIBES
         // String[] fLydian = {"F","G","A","B","C","D","E","F"}; // ETHEREAL VIBES (most unstable)
-        // String[] gMixolydian = {"G","A","B","C","D","E","F","G"}; // BLUESY VIBES
+        // String[] gMixolydian = {"G","A","B","C","D","E","F","G"}; // EDGY-BLUES VIBES
         String[] aAeolian = {"A","B","C","D","E","F","G", "A"}; // MINOR-ALT VIBES
         // String[] bLocrian = {"B","C","D","E","F","G", "A","B"}; //MENACE ("Army Of Me")
     
