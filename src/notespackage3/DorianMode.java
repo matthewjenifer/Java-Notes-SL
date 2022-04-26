@@ -2,8 +2,8 @@ package notespackage3;
 
 public class DorianMode {
     public static void main(String[] args) {
-        String[] aIonian = {"A","B","C#","D","E","F#","G#", "A"}; // PARENT (Major) Scale
-        String[] aMajor = {"A","B","C#","D","E","F#","G#", "A"}; // PARENT (Major) Scale
+        String[] aIonian = {"A","B","C#","D","E","F#","G#", "A"}; // PARENT Scale
+        String[] aMajor = {"A","B","C#","D","E","F#","G#", "A"};
         String[] bDorian = {"B","C#","D","E","F#","G#", "A", "B"}; //B dorian is the second mode of A Major. This would work well over B Major or B Minor chords.
 
         // String[] cPhrygian = {"C#","D","E","F#","G#", "A", "B", "C#"}; 
@@ -31,13 +31,13 @@ public class DorianMode {
         if(aMaj == aIon2){
         System.out.println("Your Scale Sir: " + aIon2);
         } else {
-            System.out.println("ah ah ah..you didnt say the magic word!");
+            System.out.println("ah ah ah..you didn't say the magic word!");
         }
 
         System.out.println("---------");
 
 
-
+        // https://github.com/saebekassebil/teoria (JavaScript)
 
 
 
