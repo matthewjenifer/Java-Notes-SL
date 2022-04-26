@@ -22,7 +22,7 @@ public class DorianMode {
         System.out.println("---------");
 
         String aIon2 = String.join(" ", aIonian);
-        System.out.println("A aeolian: " + aIon2);
+        System.out.println("A Ionian: " + aIon2);
         String aMaj = String.join(" ", aMajor);
         System.out.println("A major: " + aMaj);
         
