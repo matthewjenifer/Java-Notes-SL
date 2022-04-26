@@ -11,7 +11,7 @@ public class DorianMode {
         // String[] eMixolydian = {"E","F#","G#", "A", "B", "C#","D","E"}; 
         // String[] fAeolian = {"F#","G#", "A", "B", "C#","D","E", "F#"};  
         // String[] gLocrian = {"G#", "A", "B", "C#","D","E", "F#","G#"};  
-
+        
         String rootNote = bDorian[0]; // 
         String secondDegree = aIonian[1];
     
@@ -35,7 +35,6 @@ public class DorianMode {
         }
 
         System.out.println("---------");
-
 
         // https://github.com/saebekassebil/teoria (JavaScript)
 

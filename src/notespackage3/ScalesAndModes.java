@@ -1,5 +1,7 @@
 package notespackage3;
 
+// https://www.pianoscales.org/jazz.html
+
 public class ScalesAndModes { // Musical modes are scales derived from a parent scale. There are seven music modes.Each mode is a slight variation of a scale. They use all the same notes and interval patterns as the parent scale.The main difference is the root note used to build the scale. Starting a scale on a different note defines the tonal center, giving it distinct melodic characteristics.
     public static void main(String[] args) {
         
