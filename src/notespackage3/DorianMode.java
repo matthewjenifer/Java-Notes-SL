@@ -13,15 +13,28 @@ public class DorianMode {
         // String[] gLocrian = {"G#", "A", "B", "C#","D","E", "F#","G#"};  
 
         String rootNote = bDorian[0]; // 
-            String secondDegree = aIonian[1];
+        String secondDegree = aIonian[1];
     
                 if(rootNote == secondDegree) {
-                System.out.println("True");
+                System.out.println("Dorian Mode Gravity Center: " + rootNote);
                 }
 
-        String aIon2 = aIonian.toString();
+        System.out.println("---------");
 
-        System.out.println("Your Scale Sir: " + aIon2); // Prints: Your Scale Sir: [Ljava.lang.String;@31befd9f ???? | https://replit.com/join/cjrzntlkyn-matthewjenifer
+        String aIon2 = String.join(" ", aIonian);
+        System.out.println("A aeolian: " + aIon2);
+        String aMaj = String.join(" ", aMajor);
+        System.out.println("A major: " + aMaj);
+        
+        System.out.println("---------");
+
+        if(aMaj == aIon2){
+        System.out.println("Your Scale Sir: " + aIon2);
+        } else {
+            System.out.println("ah ah ah..you didnt say the magic word!");
+        }
+
+        System.out.println("---------");
 
 
 
@@ -30,10 +43,17 @@ public class DorianMode {
 
 
     
-                // if(aIonian[2] == aMajor[2]) {
-                // System.out.println("True");
-                // } else {
-                //   System.out.println("Nah Son");
-                // }
+        if(aIonian[2] == aMajor[2]) {
+        System.out.println("True");
+        } else {
+        System.out.println("Nah Son");
+        }
+
+
+
+
+
+
+
     }
 }
