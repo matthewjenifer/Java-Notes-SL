@@ -1,0 +1,29 @@
+package notespackage3;
+
+public class DAngelo { // https://www.youtube.com/watch?v=EHihOgIe3U4
+    public static void main(String[] args) {
+        System.out.println("-----------------");
+        String key = "A#";
+        String mode = "Phrygian";
+        System.out.println("Another Life by DAngelo");
+        System.out.println("Key:" + key + " | Mode: "+ mode);
+        String[][] anotherlife = {{"A#mi7","Bmaj7","F#maj7","G#m11"},{"7","6","8","8"}};
+        String i7 = anotherlife[0][0];
+        String II7 = anotherlife[0][1];
+        String IV7 = anotherlife[0][2];
+        String vi11 = anotherlife[0][3];
+        String mk3a = anotherlife[1][0];
+        String mk3b = anotherlife[1][1];
+        String mk3c = anotherlife[1][2];
+        String mk3d = anotherlife[1][3];
+        String root1 = "Dmi";
+        String root2 = "D#mi";
+        String root3 = "Bmi9";
+        System.out.println("-----------------");
+        System.out.println("Min4 [r]("+ root1 +"): " + " Pad-" + mk3a + " (" + i7 + ")" );
+        System.out.println("Min4 [r]("+ root2 +"): " + " Pad-" + mk3b + " (" + II7 + ")" );
+        System.out.println("Min4 [r]("+ root2 +"): " + " Pad-" + mk3c+ " (" + IV7 + ")" );
+        System.out.println("Min7 [r]("+ root3 +"): "+ " Pad-" + mk3d + " (" + vi11 + ")" );
+        System.out.println("-----------------");
+    }
+}
