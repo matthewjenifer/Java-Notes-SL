@@ -21,7 +21,7 @@ public class Stevie {
         String root4 = "Cmi";
         System.out.println("-----------------");
         System.out.println("Min4 [r]("+ root1 +"): " + " Pad-" + mk3a + " (" + Imaj7 + ")" );
-        System.out.println("Min6 [r]("+ root2 +"): " + " Pad-" + mk3b + " (" + Imaj7 + ")" );
+        System.out.println("Min6 [r]("+ root2 +"): " + " Pad-" + mk3b + " (" + I7 + ")" );
         System.out.println("Min4 [r]("+ root3 +"): " + " Pad-" + mk3c+ " (" + IVmaj7 + ")" );
         System.out.println("Min4 [r]("+ root1 +"): "+ " Pad-" + mk3a + " (" + Imaj7 + ")" );
         System.out.println("Min4 [r]("+ root3 +"): "+ " Pad-" + mk3d + " (" + VIImaj7 + ")" );
