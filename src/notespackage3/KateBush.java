@@ -70,3 +70,33 @@ public class KateBush { // https://www.hooktheory.com/theorytab/view/kate-bush/b
 
 // more fun: https://www.hooktheory.com/theorytab/view/kate-bush/wuthering-heights
 // more fun: https://www.hooktheory.com/theorytab/view/paul-mccartney/maybe-im-amazed
+//https://www.hooktheory.com/theorytab/view/david-bowie/ziggy-stardust
+//https://www.hooktheory.com/theorytab/view/david-bowie/moonage-daydream
+//https://www.hooktheory.com/theorytab/view/journey/separate-ways-worlds-apart
+//https://www.hooktheory.com/theorytab/view/the-bird-and-the-bee/polite-dance-song
+//https://www.hooktheory.com/theorytab/view/bee-gees/night-fever
+//https://www.hooktheory.com/theorytab/view/bee-gees/how-deep-is-your-love
+//https://www.hooktheory.com/theorytab/view/the-carpenters/weve-only-just-begun
+//https://www.hooktheory.com/theorytab/view/carpenters/(they-long-to-be)-close-to-you
+//https://www.hooktheory.com/theorytab/view/carpenters/superstar
+//https://www.hooktheory.com/theorytab/view/bee-gees/night-fever
+//https://www.hooktheory.com/theorytab/view/the-impressions/its-all-right
+//https://www.hooktheory.com/theorytab/view/gnarls-barkley/crazy
+//https://www.hooktheory.com/theorytab/view/estelle/american-boy
+//https://www.hooktheory.com/theorytab/view/marvin-gaye/you-sure-love-to-ball
+//https://www.hooktheory.com/theorytab/view/marvin-gaye/mercy-mercy-me-%28the-ecology%29
+//https://www.hooktheory.com/theorytab/view/roy-ayers/everybody-loves-the-sunshine
+//https://www.hooktheory.com/theorytab/view/george-benson/give-me-the-night
+//https://www.hooktheory.com/theorytab/view/amy-winehouse/back-to-black
+//https://www.hooktheory.com/theorytab/view/bobby-caldwell/my-flame
+//https://www.hooktheory.com/theorytab/view/earth-wind-and-fire/after-the-love-has-gone
+//https://www.hooktheory.com/theorytab/view/jamiroquai/virtual-insanity
+//https://www.hooktheory.com/theorytab/view/james-blake/retrograde
+//https://www.hooktheory.com/theorytab/view/minnie-riperton/inside-my-love
+//https://www.hooktheory.com/theorytab/view/mariah-carey/vision-of-love
+//https://www.hooktheory.com/theorytab/view/randy-crawford-and-the-crusaders/street-life
+//https://www.hooktheory.com/theorytab/view/the-beatles/here-comes-the-sun
+//https://www.hooktheory.com/theorytab/view/toni-braxton/unbreak-my-heart
+//https://www.hooktheory.com/theorytab/view/the-system/dont-disturb-this-groove
+//https://www.hooktheory.com/theorytab/view/kanye-west/new-again
+//https://www.hooktheory.com/theorytab/view/nas/the-world-is-yours
