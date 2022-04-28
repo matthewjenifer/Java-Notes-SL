@@ -13,6 +13,7 @@ public class FunctionalHarmony {
         String gMaj = progression[0][4];
         String aMin = progression[0][5];
         String bDim = progression[0][6];
+
         String dMaj = progression[0][7];
         String eMaj = progression[0][8];
 
@@ -23,6 +24,7 @@ public class FunctionalHarmony {
         String chord5 = progression[1][4];
         String chord6 = progression[1][5];
         String chord7 = progression[1][6];
+        
         String chord8 = progression[1][7];
         String chord9 = progression[1][8];
 
