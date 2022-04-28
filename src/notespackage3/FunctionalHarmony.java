@@ -33,11 +33,11 @@ public class FunctionalHarmony {
             System.out.println("(C Progression)");
             System.out.println("--------------");
             System.out.println("T - Chord: " + cMaj + " (" + chord1 + ")");
-            System.out.println("SD- Chord: " + dMin + " (" + chord2 + ") <-- Minor = Lowercase");
+            System.out.println("PD- Chord: " + dMin + " (" + chord2 + ") <-- Minor = Lowercase");
             System.out.println("T - Chord: " + eMin + " (" + chord3 + ")");
-            System.out.println("SD- Chord: " + fMaj + " (" + chord4 + ")");
+            System.out.println("PD- Chord: " + fMaj + " (" + chord4 + ")");
             System.out.println("D - Chord: " + gMaj + " (" + chord5 + ") <-- Major = Uppercase");
-            System.out.println("SD- Chord: " + aMin + " (" + chord6 + ")");
+            System.out.println("PD- Chord: " + aMin + " (" + chord6 + ")");
             System.out.println("D - Chord: " + bDim + " (" + chord7 + ")");
             System.out.println("T - Chord: " + cMaj + " (" + chord1 + ")");
             System.out.println(" ");
@@ -48,14 +48,14 @@ public class FunctionalHarmony {
             System.out.println("T- (" + chord1 + ") " + cMaj);
             System.out.println("T- (" + chord3 + ") " + eMin);
             System.out.println(" ");
-            System.out.println("----from TONIC we can go SUB or DOM..");
+            System.out.println("----from TONIC we can go PRE or DOM..");
             System.out.println("----------------");
         
-            System.out.println("(SUB or PRE-DOMINANT Chords)");
+            System.out.println("(PRE-DOMINANT Chords)");
             System.out.println(" ");
-            System.out.println("SD- (" + chord2 + ") " + dMin);
-            System.out.println("SD- (" + chord4 + ") " + fMaj);
-            System.out.println("SD- (" + chord6 + ") " + aMin);
+            System.out.println("PD- (" + chord2 + ") " + dMin);
+            System.out.println("PD- (" + chord4 + ") " + fMaj);
+            System.out.println("PD- (" + chord6 + ") " + aMin);
             System.out.println(" ");
             System.out.println("----------------");
         
