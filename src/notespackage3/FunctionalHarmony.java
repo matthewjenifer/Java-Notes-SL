@@ -41,6 +41,7 @@ public class FunctionalHarmony {
         System.out.println("D - Chord: " + bDim +" (" + chord7 + ")");
         System.out.println("T - Chord: " + cMaj +" (" + chord1 + ")");
         System.out.println(" ");
+
         System.out.println("-----------------");
         System.out.println("(TONIC Chords a.k.a \"Home\" or \"Root\")");
         System.out.println(" ");
@@ -49,6 +50,7 @@ public class FunctionalHarmony {
         System.out.println(" ");
         System.out.println("----from TONIC we can go SUB or DOM..");
         System.out.println("----------------");
+
         System.out.println("(SUB or PRE-DOMINANT Chords)");
         System.out.println(" ");
         System.out.println("SD- (" + chord2 + ") " + dMin);
@@ -56,6 +58,7 @@ public class FunctionalHarmony {
         System.out.println("SD- (" + chord6 + ") " + aMin);
         System.out.println(" ");
         System.out.println("----------------");
+
         System.out.println("(DOMINANT Chords)");
         System.out.println(" ");
         System.out.println("D- (" + chord5 + ") " + gMaj);
@@ -64,6 +67,7 @@ public class FunctionalHarmony {
         System.out.println("----DOM chords usually resolve to TONIC..");
         System.out.println("----------------");
         System.out.println(" ");
+        
         System.out.println("(SECONDARY Dominant Chords)");
         System.out.println(" ");
         System.out.println("--think of 2ndDom chords like \"5 of 5\"(V/V)");
