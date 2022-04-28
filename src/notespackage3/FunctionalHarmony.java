@@ -70,7 +70,7 @@ public class FunctionalHarmony {
         
         System.out.println("(SECONDARY Dominant Chords)");
         System.out.println(" ");
-        System.out.println("--think of 2ndDom chords like \"5 of ..\"(V/..)");
+        System.out.println("--think of 2ndDom chords like \"5 of_\"(V/_)");
         System.out.println(" ");
         System.out.println("--or if G is 5deg from C, & D is 5deg from G:");
         System.out.println("then D(V/V) is the 2ndDOM of C..");
