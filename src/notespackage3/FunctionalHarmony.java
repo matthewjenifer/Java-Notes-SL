@@ -72,7 +72,7 @@ public class FunctionalHarmony {
             System.out.println("--think of 2ndDom chords like \"5 of ..\"(V_..)");
             System.out.println(" ");
             System.out.println("--or if G is 5deg from C, & D is 5deg from G:");
-            System.out.println("then D(V_V) is the 2ndDOM of C..");
+            System.out.println("then D(V/V) is the 2ndDOM of C..");
             System.out.println(" ");
             System.out.println("----------");
             System.out.println("Chord: " + cMaj + " (" + I + ")");
@@ -83,7 +83,7 @@ public class FunctionalHarmony {
             System.out.println("----------");
             System.out.println(" ");
             System.out.println("--OR: if Amin is 6deg from C, & E is 5deg from Amin:");
-            System.out.println("then E(V_vi) becomes 2ndDOM of C..");
+            System.out.println("then E(V/vi) becomes 2ndDOM of C..");
             System.out.println(" ");
             System.out.println("----------");
             System.out.println("Chord: " + cMaj + " (" + I + ")");
