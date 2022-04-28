@@ -1,5 +1,6 @@
 package notespackage3;
 // source: https://www.youtube.com/watch?v=Vyc8lezaa9g
+// https://cdn.discordapp.com/attachments/942287615493828699/969023537098674236/Maj1-C.png
 
 public class ChordProgressions {
 
