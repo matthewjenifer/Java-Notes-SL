@@ -32,7 +32,7 @@ public class NotesClassMAIN {
     //BONUS example: second call on first print() method: public void print(int num)
     // obj1.print('c'); //prints: int 99 (ASCII equivalent)
     
-    FlatScreen hdmi = new FlatScreen(); // Anonymous classes are a way to extend the existing classes on the fly. The modification is applicable only to the current object, and not the class itself. So if we create another object of that class, the start method's implementation will be the one defined in the class.
+    FlatScreen hdmi = new FlatScreen(); // Anonymous classes are a way to extend the existing classes on the fly. The modification is applicable only to the current object, and not the class itself. So if we create another object of that class, the start method's implementation will be the one defined in the class. | FlatScreen.java
     
     hdmi.connect(); // prints: Device connected
     
