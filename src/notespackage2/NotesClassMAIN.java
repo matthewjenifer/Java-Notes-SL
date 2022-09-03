@@ -45,7 +45,7 @@ public class NotesClassMAIN {
         COLE 
     }
     
-    Roles a = Roles.JEROME;
+    Roles a = Roles.COLE;
 
     switch(a) {
             case JEROME:

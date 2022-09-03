@@ -4,7 +4,7 @@ public class FunctionalHarmony {
     public static void main(String[] args) {
             String[][] progression = {
                 { "C", "Dm", "Em", "F", "G", "Am", "Bo", "D", "E" },
-                { "I", "ii", "iii", "IV", "V", "vi", "vii", "V/V", "V/vi" }
+                { "I", "ii", "iii", "IV", "V", "vi", "vii.", "V/V", "V/vi" }
             };
             String cMaj = progression[0][0];
             String dMin = progression[0][1];
@@ -30,7 +30,7 @@ public class FunctionalHarmony {
         
             System.out.println(" ");
             System.out.println("----------------");
-            System.out.println("(C Progression)");
+            System.out.println("(CMaj Progression)");
             System.out.println("--------------");
             System.out.println("T - Chord: " + cMaj + " (" + I + ")");
             System.out.println("PD- Chord: " + dMin + " (" + ii + ") <-- Minor = Lowercase");

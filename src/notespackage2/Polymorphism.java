@@ -29,7 +29,7 @@ public class Polymorphism { // Polymorphism, which refers to the idea of "having
         // Rules for Method Overriding:
 
         // Should have the same return type and arguments
-        // The access level cannot be more restrictive than the overridden method's access level (Examples: If the superclass method is declarws public, the overriding method in the sub class can be neither private nor protected).
+        // The access level cannot be more restrictive than the overridden method's access level (Examples: If the superclass method is declared public, the overriding method in the sub class can be neither private nor protected).
         // A method cannot be inherited, it cannot be overridden.
         // Constructors cannot be overridden
     }

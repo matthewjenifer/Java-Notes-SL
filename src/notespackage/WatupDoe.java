@@ -26,7 +26,7 @@ public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used 
     // private: Accessible only within the declared class itself.
     // It's a best practice to keep the variables within a class private. The variables are accessible and modified using GETTERS and SETTERS.
 	public static void main(String[] args) {
-		// In JAVA, every line of code that can actually run needs to be inside a class.
+		// In JAVA, every line of code that can actually run needs to be inside a class(WatupDoe).
 		// Each application has an entry point, or a starting point, which is a method
 		// called MAIN. | No "main()"? Nothing will print to console.
 
@@ -55,7 +55,7 @@ public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used 
 		char letter = 'B';
 
 		//Reference Types: A reference type stores a reference (or address) to the memory location where the corresponding data is stored. When you create an object using the constructor, you create a reference variable.
-		String name = "Sah";
+		String name = "bo";
 		
 		// In JAVA operands function similar to JAVASCRIPT
 		boolean word = true;
@@ -97,7 +97,7 @@ public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used 
 		System.out.println(refinement + watupDoe); // prints: 5...whats the science kid?
 
 		// A QUICK NOTE ON EQUALS VS == :
-		// https://github.com/matthewjenifer/explaining-equals-to-me
+		// https://github.com/matthewjenifer/explaining-equals-to-me/blob/main/equalsVsStrictEquals.js
 
 		// LOGICAL OPERATORS
 		int age = 17;
@@ -176,7 +176,7 @@ public class WatupDoe { //PUBLIC is an access modifier, meaning that it is used 
 				System.out.println("thats right "+ name2 + ", " + hot + " is correct! Well done.");
 			}
 		}  catch (Exception e) {
-			System.out.println("Something went wrong.");
+			System.out.println("EXCEPTION CAUGHT!..Something went wrong.");
 	}
 		
 		//WHILE LOOP
